@@ -2,8 +2,7 @@
 
 A small, responsive, multi-page website for a fictional café, built with plain HTML, CSS and a little JavaScript. No frameworks, no build step.
 
-<!-- Add your live link here once the site is hosted, for example with GitHub Pages:
-**Live demo:** https://your-username.github.io/your-repo-name/ -->
+**Live demo:** https://laprimus.github.io/Cafe-Site/
 
 ![Home page on desktop](screenshots/home-desktop.png)
 
