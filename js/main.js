@@ -1,6 +1,4 @@
-// Ember & Bean Café — shared script
-
-// 1. Mobile navbar: the hamburger button shows and hides the links.
+// 1. Mobile navbar
 const toggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".nav-links");
 
@@ -11,7 +9,7 @@ if (toggle && links) {
   });
 }
 
-// 2. Contact form: show a friendly message instead of sending data anywhere.
+// 2. Contact form
 const form = document.querySelector(".contact-form");
 const message = document.querySelector(".form-message");
 
