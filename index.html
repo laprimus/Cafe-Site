@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember &amp; Bean Café | Home</title>
+  <meta name="description" content="Ember & Bean is a cosy neighbourhood café serving small-batch coffee and fresh pastries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Ember <span>&amp;</span> Bean</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Good coffee, slow mornings</h1>
+        <p>Small-batch roasts, fresh-baked pastries and a warm corner to settle into. Come in, stay a while.</p>
+        <a class="btn" href="menu.html">See our menu</a>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="highlights-title">
+      <div class="container">
+        <h2 class="section-title" id="highlights-title">Why you'll love it here</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">&#9749;</span>
+            <h3>Small-batch coffee</h3>
+            <p>Beans roasted weekly and brewed by baristas who love the craft.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">&#129360;</span>
+            <h3>Baked every morning</h3>
+            <p>Croissants, muffins and cakes made from scratch before we open the doors.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">&#127807;</span>
+            <h3>A calm place to be</h3>
+            <p>Comfy seats, free Wi-Fi and plenty of plugs for work, study or catching up.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="hours-title">
+      <div class="container hours-wrap">
+        <h2 class="section-title" id="hours-title">Opening hours</h2>
+        <table class="hours-table" aria-labelledby="hours-title">
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Open</th>
+              <th scope="col">Close</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Monday – Friday</th><td>7:00 am</td><td>6:00 pm</td></tr>
+            <tr><th scope="row">Saturday</th><td>8:00 am</td><td>8:00 pm</td></tr>
+            <tr><th scope="row">Sunday</th><td>9:00 am</td><td>4:00 pm</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <section>
+        <h2>Ember &amp; Bean</h2>
+        <p>Your neighbourhood coffee corner.</p>
+      </section>
+      <section>
+        <h2>Visit us</h2>
+        <p>12 Roastery Lane, Brewtown</p>
+        <p>hello@emberandbean.example</p>
+      </section>
+      <section>
+        <h2>Explore</h2>
+        <p><a href="index.html">Home</a> · <a href="menu.html">Menu</a> · <a href="contact.html">Contact</a></p>
+      </section>
+    </div>
+    <p class="footer-bottom">&copy; 2026 Ember &amp; Bean Café. A fictional café made for practice.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
