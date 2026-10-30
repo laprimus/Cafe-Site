@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember &amp; Bean Café | Menu</title>
+  <meta name="description" content="Browse the Ember & Bean menu: coffee, pastries and light bites.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Ember <span>&amp;</span> Bean</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" aria-current="page">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h1>Our menu</h1>
+        <p>Made fresh daily. Ask us about oat, soy or almond milk.</p>
+      </div>
+    </section>
+
+    <div class="container section">
+
+      <section class="menu-category" aria-labelledby="coffee-title">
+        <h2 id="coffee-title">Coffee</h2>
+        <div class="menu-grid">
+          <article class="menu-item">
+            <h3>Espresso</h3><span class="price">$2.50</span>
+            <p>A short, rich shot of our house blend.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Flat White</h3><span class="price">$3.80</span>
+            <p>Double espresso with silky steamed milk.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Cappuccino</h3><span class="price">$3.80</span>
+            <p>Equal parts espresso, steamed milk and foam.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Caramel Latte</h3><span class="price">$4.20</span>
+            <p>Smooth latte with housemade caramel syrup.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Cold Brew</h3><span class="price">$4.00</span>
+            <p>Steeped for 18 hours and served over ice.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Hot Chocolate</h3><span class="price">$3.50</span>
+            <p>Dark chocolate melted into steamed milk.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-category" aria-labelledby="pastries-title">
+        <h2 id="pastries-title">Pastries</h2>
+        <div class="menu-grid">
+          <article class="menu-item">
+            <h3>Butter Croissant</h3><span class="price">$3.00</span>
+            <p>Flaky, golden and baked every morning.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Blueberry Muffin</h3><span class="price">$3.25</span>
+            <p>Soft and moist, packed with juicy berries.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Cinnamon Roll</h3><span class="price">$3.75</span>
+            <p>Warm swirl topped with cream cheese icing.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Lemon Drizzle Cake</h3><span class="price">$3.90</span>
+            <p>Zesty sponge finished with a sharp lemon glaze.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Almond Biscotti</h3><span class="price">$2.20</span>
+            <p>Twice-baked and perfect for dunking.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Chocolate Brownie</h3><span class="price">$3.40</span>
+            <p>Fudgy centre with a crackly top.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-category" aria-labelledby="bites-title">
+        <h2 id="bites-title">Light Bites</h2>
+        <div class="menu-grid">
+          <article class="menu-item">
+            <h3>Avocado Toast</h3><span class="price">$7.50</span>
+            <p>Sourdough, smashed avocado, chilli flakes and lime.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Cheese Toastie</h3><span class="price">$6.50</span>
+            <p>Three cheeses melted between crisp, buttery bread.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Garden Salad Bowl</h3><span class="price">$7.00</span>
+            <p>Fresh greens, cherry tomatoes, cucumber and vinaigrette.</p>
+          </article>
+          <article class="menu-item">
+            <h3>Chicken Wrap</h3><span class="price">$8.00</span>
+            <p>Grilled chicken, lettuce and garlic yoghurt sauce.</p>
+          </article>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <section>
+        <h2>Ember &amp; Bean</h2>
+        <p>Your neighbourhood coffee corner.</p>
+      </section>
+      <section>
+        <h2>Visit us</h2>
+        <p>12 Roastery Lane, Brewtown</p>
+        <p>hello@emberandbean.example</p>
+      </section>
+      <section>
+        <h2>Explore</h2>
+        <p><a href="index.html">Home</a> · <a href="menu.html">Menu</a> · <a href="contact.html">Contact</a></p>
+      </section>
+    </div>
+    <p class="footer-bottom">&copy; 2026 Ember &amp; Bean Café. A fictional café made for practice.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
